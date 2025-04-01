@@ -4,4 +4,4 @@ def greet_user():
     print(f"Merhaba, {name}! Sizi burada görmek harika.")
 
 if __name__ == "__main__":
-    greet_user(
+    greet_user()
