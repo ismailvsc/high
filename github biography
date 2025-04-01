@@ -1,0 +1,24 @@
+# profile.py
+
+class GitHubProfile:
+    def __init__(self, name, bio, skills):
+        self.name = name
+        self.bio = bio
+        self.skills = skills
+
+    def display_profile(self):
+        print(f"Name: {self.name}")
+        print(f"Bio: {self.bio}")
+        print("Skills:")
+        for skill in self.skills:
+            print(f"- {skill}")
+
+if __name__ == "__main__":
+    # Profil bilgilerinizi buraya girin
+    my_profile = GitHubProfile(
+        name="John Doe",
+        bio="Software Developer | Python Enthusiast | Open Source Contributor",
+        skills=["Python", "JavaScript", "Django", "Flask", "React"]
+    )
+    
+    my_profile.display_profile()
