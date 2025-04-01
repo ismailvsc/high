@@ -1,1 +1,7 @@
-["high.berk"]
+def greet_user():
+    print("Merhaba! Bu program sizinle tanışmak için burada.")
+    name = input("Lütfen isminizi girin: ")
+    print(f"Merhaba, {name}! Sizi burada görmek harika.")
+
+if __name__ == "__main__":
+    greet_user()
